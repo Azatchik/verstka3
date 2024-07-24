@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24,24,24);
+    overflow: hidden;
+}
+
+.first-loader,
+.second-loader,
+.third-loader {
+    border-radius: 50%;
+}
+
+.first-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 10px ridge rgb(13, 33, 255);
+    width: 300px;
+    height: 300px;
+}
+
+.second-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 10px ridge white;
+    width: 250px;
+    height: 250px;
+}
+
+.third-loader {
+    border-left: 10px ridge rgb(68, 82, 254);
+    width: 200px;
+    height: 200px;
+}
+
+/* АНИМАЦИИ */ 
+
+.first-loader,
+.second-loader,
+.third-loader {
+    animation: 4s ease 5 rotate;
+    transform: rotate(0);
+}
+
+.first-loader {
+    animation-timing-function: linear;
+}
+.second-loader {
+    animation-timing-function: ease-in;
+}
+
+.third-loader {
+    animation-timing-function: ease-out;
+}
+
+
+@keyframes rotate {
+    50% {
+        transform: rotate(360deg)
+    }
+
+    100% {
+        transform: rotate(720deg);
+    }
+}

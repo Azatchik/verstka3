@@ -1,0 +1,525 @@
+.main {
+    background-color: rgba(24, 24, 24, 1);
+    width: 100%;
+}
+
+
+
+
+/* СЕКЦИЯ ФУНКЦИИ */
+
+.main-features {
+    padding-top: 50px;
+    background: linear-gradient(0deg, transparent 85%, rgb(12, 13, 43))
+}
+
+.main-features-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.main-features-header>h1 {
+    font-family: RobotoB, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.main-features-header>h5 {
+    font-family: RobotoT, sans-serif;
+    font-size: 15px;
+}
+
+.main-features-info {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.main-features-info>img {
+    max-height: 480px;
+}
+
+.main-features-info>ul {
+    list-style: none;
+    color: white;
+    margin-left: 10px;
+    margin-block: 0;
+}
+
+.main-features-info-li-title {
+    display: flex;
+}
+
+.main-features-info>ul h5 {
+    margin-left: 9px;
+    font-family: RobotoB, sans-serif;
+    font-size: 14px;
+}
+
+.main-features-info>ul>li {
+    font-family: RobotoT, sans-serif;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.main-features-info>ul>li:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+/* СЕКЦИЯ СОДЕРЖАНИЕ */
+
+.main-contents {
+    padding-top: 80px;
+}
+
+.main-contents-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.main-contents-header>h1 {
+    font-family: RobotoB, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+
+}
+
+.main-contents-header>h5 {
+    font-family: RobotoT, sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+.main-contents-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.main-contents-cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 570px;
+    width: 460px;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 20px;
+    border: 0.5px solid rgb(115, 115, 115);
+    box-shadow: 0px 0px 15px 2px rgb(233, 231, 231);
+}
+
+.main-contents-cards div:last-child {
+    margin-right: 0;
+}
+
+.main-contents-cards h1 {
+    font-family: RobotoB, sans-serif;
+    font-size: 22px;
+}
+
+.main-contents-cards h5 {
+    font-family: RobotoT, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.main-contents-cards img {
+    max-width: 400px;
+}
+
+
+
+
+/* СЕКЦИЯ ГАЛЕРЕЯ */
+
+.main-gallery {
+    padding-top: 80px;
+}
+
+.main-gallery-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.main-gallery-header>h1 {
+    font-family: RobotoB, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+
+}
+
+.main-gallery-header>h5 {
+    font-family: RobotoT, sans-serif;
+    font-size: 15px;
+}
+
+
+
+.main-gallery-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.main-gallery-images .row-1,
+.row-2 {
+    display: flex;
+}
+
+.main-gallery-images .row-1 {
+    margin-bottom: 40px;
+}
+
+.main-gallery-images img {
+    display: flex;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.main-gallery-images img:last-child {
+    margin-right: 0;
+}
+
+
+.main-gallery-images button {
+    margin-top: 35px;
+}
+
+
+
+
+/* СЕКЦИЯ ПАРТНЕРЫ */
+
+.main-partners {
+    padding-top: 180px;
+}
+
+.main-partners-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.main-partners-header>h1 {
+    font-family: RobotoB, sans-serif;
+    font-size: 50px;
+    margin-block: 0;
+}
+
+.main-partners-header>h5 {
+    font-family: RobotoT, sans-serif;
+    font-size: 15px;
+}
+
+.partners-logos-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.partners-logos {
+    display: flex;
+}
+
+.partners-logos img {
+    max-height: 50px;
+    margin-right: 40px;
+}
+
+.partners-logos img:last-child {
+    margin-right: 0;
+}
+
+
+.partners-logos-conteiner button {
+    margin-top: 30px;
+}
+
+
+
+/* СЕКЦИЯ ОТЗЫВЫ */
+
+
+.main-testimonials {
+    padding-block: 120px;
+}
+
+.main-testimonials-header>h1 {
+    text-align: center;
+    font-family: RobotoB, sans-serif;
+    font-size: 50px;
+    margin-block: 0;
+    color: white;
+}
+
+.main-testimonials-comments {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.comment-conteiners {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    height: 616px;
+    width: 785px;
+    color: white;
+}
+
+.comment-conteiners>div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-radius: 10px;
+    width: 300px;
+    padding: 40px;
+    margin-block: 10px;
+}
+
+
+.comment-header {
+    display: flex;
+}
+
+.comment-header .fullname {
+    display: flex;
+    align-items: center;
+    font-family: RobotoB, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.comment-text {
+    margin-top: 30px;
+}
+
+
+/* МЕДИА ЗАПРОСЫ */
+@media (max-width: 904px) {
+
+    /* СЕКЦИЯ СОДЕРЖАНИЕ */
+
+    .main-contents-cards div {
+        height: 500px;
+        width: 350px;
+        margin-right: 20px;
+    }
+
+    .main-contents-cards h1 {
+        font-size: 20px;
+    }
+
+    .main-contents-cards h5 {
+        font-size: 14px;
+    }
+
+    .main-contents-cards img {
+        max-width: 300px;
+    }
+
+    /* СЕКЦИЯ ГАЛЕРЕЯ */
+
+
+    .main-gallery-images .row-1 {
+        margin-bottom: 25px;
+    }
+
+    .main-gallery-images img {
+        margin-right: 20px;
+        max-width: 180px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 700px) {
+
+    /* СЕКЦИЯ ФУНКЦИИ */
+    .main-features-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .main-features-info-li-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-features-info>ul {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    /* СЕКЦИЯ СОДЕРЖАНИЕ */
+
+    .main-contents-cards div {
+        height: 420px;
+        width: 280px;
+        margin-right: 20px;
+    }
+
+    .main-contents-cards h1 {
+        font-size: 18px;
+    }
+
+    .main-contents-cards h5 {
+        font-size: 13px;
+    }
+
+    .main-contents-cards img {
+        max-width: 260px;
+    }
+
+
+    /* СЕКЦИЯ ГАЛЕРЕЯ */
+
+    .main-gallery-images .row-1 {
+        margin-bottom: 15px;
+    }
+
+    .main-gallery-images img {
+        margin-right: 15px;
+        max-width: 130px;
+    }
+
+    /* СЕКЦИЯ ПАРТНЕРЫ */
+
+    .partners-logos img {
+        max-height: 40px;
+        margin-right: 30px;
+    }
+
+    /* СЕКЦИЯ ОТЗЫВЫ */
+
+    .comment-conteiners {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 1200px;
+
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    /* СЕКЦИЯ ФУНКЦИИ */
+    .main-features-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding-top: 40px;
+    }
+
+    .main-features-info-li-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-features-info>ul {
+        padding-top: 50px;
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* СЕКЦИЯ СОДЕРЖАНИЕ */
+
+    .main-contents-cards {
+        margin-right: 9px;
+    }
+
+    .main-contents-cards div {
+        height: 260px;
+        width: 180px;
+        margin-right: 15px;
+    }
+
+    .main-contents-cards h1 {
+        font-size: 14px;
+    }
+
+    .main-contents-cards h5 {
+        font-size: 8px;
+    }
+
+    .main-contents-cards img {
+        max-width: 130px;
+    }
+
+
+    /* СЕКЦИЯ ГАЛЕРЕЯ */
+
+    .main-gallery-images .row-1 {
+        margin-bottom: 10px;
+    }
+
+    .main-gallery-images img {
+        margin-right: 8px;
+        max-width: 90px;
+    }
+
+    /* СЕКЦИЯ ПАРТНЕРЫ */
+
+    .partners-logos img {
+        max-height: 30px;
+        margin-right: 25px;
+    }
+
+    /* СЕКЦИЯ ОТЗЫВЫ */
+
+    .main-testimonials {
+        padding-top: 120px;
+        padding-bottom: 200px;
+    }
+
+    .comment-conteiners {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 1200px;
+
+    }
+
+    .comment-conteiners>div {
+        width: 250px;
+        padding: 30px;
+    }
+}

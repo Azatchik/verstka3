@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.header {
+    background-color: rgba(24, 24, 24, 1);
+    width: 100%;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: rgb(24, 24, 24);
+    position: sticky;
+    border-bottom: 2px solid rgb(68, 82, 254);
+    top: 0px;
+}
+
+.header-main svg {
+    display: none;
+}
+
+.header-nav {
+    margin-right: 110px;
+    margin-left: 100px;
+}
+
+.header-nav>a {
+    color: white;
+    font-family: RobotoM, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.header-nav>a:last-child {
+    margin-right: 0;
+}
+
+.header-nav>a:hover {
+    color: gray;
+}
+
+
+
+
+
+
+
+
+.header-texts {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.header-texts>h1 {
+    font-family: RobotoB, sans-serif;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.header-texts>h5 {
+    font-family: RobotoT, sans-serif;
+    font-size: 20px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+
+.header-buttons .primary {
+    margin-right: 70px;
+}
+
+
+.header-img-products {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(180deg, transparent 20%, rgb(12, 13, 43));
+    padding-top: 40px;
+}
+
+.header-img-products>img {
+    width: 100%;
+}
+
+
+/* МЕДИА ЗАПРОСЫ */
+
+
+
+
+@media (max-width: 904px) {
+
+    .header-nav {
+        display: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .header-main {
+        justify-content: space-between;
+        border-bottom: none;
+        padding-block: 0;
+    }
+
+    .nav-btn {
+        order: -1;
+    }
+
+    .header-main svg {
+        display: block;
+        width: 40px;
+        padding: 15px 20px;
+        color: white;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .header-main svg:hover {
+        background-color: rgb(13, 33, 255);
+
+    }
+
+    .nav-btn:hover .header-nav {
+        display: block;
+        position: absolute;
+        top: 70px;
+        background-color: rgb(30, 30, 30);
+        width: 150px;
+        height: 200px;
+
+    }
+
+    .header-nav>a {
+        display: block;
+        color: white;
+        font-family: RobotoM, sans-serif;
+        font-size: 23px;
+        text-decoration: none;
+        padding-block: 10px;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .header-nav>a:hover {
+        display: block;
+        color: white;
+        background-color: rgb(13, 33, 255);
+    }
+
+    .header-main img {
+        margin-left: 20px;
+        width: 210px;
+    }
+
+    .header-main .secondary {
+        margin-right: 20px;
+        margin-top: 6px;
+    }
+
+
+
+
+}
+
+@media (max-width: 700px) {
+
+    .header-texts {
+        padding-top: 100px;
+    }
+
+    .header-texts>h1 {
+        font-size: 40px;
+    }
+
+    .header-texts>h5 {
+        font-size: 15px;
+    }
+
+    .header-buttons {
+
+        padding-right: 50px;
+        margin-left: 30px;
+    }
+
+    .header-buttons .primary {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-main img {
+        margin-left: 20px;
+        width: 170px;
+    }
+}

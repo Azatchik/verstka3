@@ -1,0 +1,186 @@
+.primary,
+.secondary {
+    color: white;
+    font-family: RobotoM, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* СИНИЕ КНОПКИ */
+
+.primary {
+    padding: 13px 35px;
+    background-color: rgb(68, 82, 254);
+    border: none;
+}
+
+.primary:hover {
+    animation-name: ForPrimary;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes ForPrimary {
+    to {
+        background-color: rgb(13, 33, 255)
+    }
+}
+
+/* СТИЛИ ДЛЯ АНИМАЦИИ КНОПОК ПРИ НАЖАТИИ*/
+
+.main-contents-cards .primary:active {
+    padding: 12px 34px;
+    margin: 1px;
+}
+
+.header-buttons .primary:active {
+    padding: 12px 34px;
+    margin: 1px;
+    margin-right: 71px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ПРОЗРАЧНЫЕ КНОПКИ */
+
+
+
+.secondary {
+    padding: 12px 40px;
+    background-color: transparent;
+    border: 1px solid white; 
+}
+
+.secondary:hover {
+    animation-name: ForSecondary;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ForSecondary {
+    to {
+        border-color: gray;
+        color: gray;
+    }
+}
+
+
+
+
+/* СТИЛИ ДЛЯ АНИМАЦИИ КНОПОК ПРИ НАЖАТИИ*/
+
+.header-main .secondary:active {
+    padding: 11px 39px;
+    margin: 1px;
+}
+
+.header-buttons .secondary:active {
+    padding: 11px 39px;
+    margin: 1px;
+}
+
+.main-gallery-images .secondary:active {
+    padding: 11px 39px;
+    margin: 1px;
+    margin-top: 36px;
+
+
+}
+
+.main-partners .secondary:active {
+    padding: 11px 39px;
+    margin: 1px;
+    margin-top: 31px;
+}
+
+
+/* МЕДИА ЗАПРОСЫ */
+
+@media (max-width: 904px) {
+    .header-main .secondary:active {
+        padding: 11px 39px;
+        margin: 1px;
+        margin-right: 21px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .primary,
+    .secondary {
+        font-size: 14px;
+
+    }
+}
+
+@media (max-width: 400px) {
+
+    .primary,
+    .secondary {
+        font-size: 7px;
+
+    }
+
+    .primary {
+        padding: 6px 18px;
+    }
+
+    .main-contents-cards .primary:active {
+        padding: 5px 17px;
+        margin: 1px;
+    }
+
+    .header-buttons .primary:active {
+        padding: 5px 17px;
+        margin: 1px;
+        margin-right: 31px;
+    }
+
+
+
+
+
+
+
+    .secondary {
+        padding: 5px 20px;
+    }
+
+    .header-main .secondary:active {
+        padding: 4px 19px;
+        margin: 1px;
+        margin-top: 7px;
+        margin-right: 21px;
+    }
+
+    .header-buttons .secondary:active {
+        padding: 4px 19px;
+        margin: 1px;
+
+    }
+
+    .main-gallery-images .secondary:active {
+        padding: 4px 19px;
+        margin: 1px;
+        margin-top: 36px;
+
+
+    }
+
+    .main-partners .secondary:active {
+        padding: 4px 19px;
+        margin: 1px;
+        margin-top: 31px;
+    }
+}
